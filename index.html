@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kota Ohashi SEA 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1> 🎨 Art of Los Angeles 🌃</h1>
 
-  <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
-    </div>
-  </body>
+  <div id="controls">
+    <input type="text" id="searchBar" placeholder="Search by title or artist..." />
+
+    <select id="styleFilter">
+      <option value="All">All Styles</option>
+      <option value="Architecture">Architecture</option>
+      <option value="Installation">Installation</option>
+      <option value="Materials">Materials</option>
+      <option value="Painting">Paintings</option>
+      <option value="Sculpture/Ceramic">Sculptures/Ceramics</option>
+    </select>
+
+    <select id="locationFilter">
+      <option value="All">All Locations</option>
+      <option value="LACMA">LACMA</option>
+      <option value="The Broad">The Broad</option>
+      <option value="Getty Center">Getty Center</option>
+      <option value="The Hammer">Hammer Museum</option>
+      <option value="Norton Simon">Norton Simon Museum</option>
+      <option value="MOCA">MOCA</option>
+      <option value="The Huntington Library">The Huntington Library</option>
+    </select>
+  </div>
+
+  <div id="gallery"></div>
+
+  <script src="scripts.js"></script>
+</body>
 </html>
