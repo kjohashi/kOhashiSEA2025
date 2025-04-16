@@ -1,1 +1,0 @@
-Kota Ohashi - Los Angeles City College - Snap Engineering Academy 2025
